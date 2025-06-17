@@ -78,8 +78,8 @@ const Calculator = () => {
     return (
         <View style={styles.container}>
           <View style={styles.display}>
-            <Text style={{fontSize: 30, fontWeight: '300'}}>{firstValue + operator}</Text>
-            <Text style={{fontSize: 60, fontWeight: '300'}}>{displayValue}</Text>
+            <Text style={{fontSize: 30, fontWeight: '300', color: 'white'}}>{firstValue + operator}</Text>
+            <Text style={{fontSize: 60, fontWeight: '300', color: 'white'}}>{displayValue}</Text>
           </View>
           <View style={styles.keypad}>
             <Button title='AC' type='top' onPress={handleClear} />
@@ -89,7 +89,7 @@ const Calculator = () => {
             <Button title='7' type='number' onPress={() => handleNumberInput('7')} />
             <Button title='8' type='number' onPress={() => handleNumberInput('8')} />
             <Button title='9' type='number' onPress={() => handleNumberInput('9')} />
-            <Button title='X' type='right' onPress={() => handleOperatorInput('*')} />
+            <Button title='x' type='right' onPress={() => handleOperatorInput('*')} />
             <Button title='4' type='number' onPress={() => handleNumberInput('4')} />
             <Button title='5' type='number' onPress={() => handleNumberInput('5')} />
             <Button title='6' type='number' onPress={() => handleNumberInput('6')} />

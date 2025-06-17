@@ -1,11 +1,11 @@
 export const Colors = {
-    light: '#FBFBFB',
+    light: 'black',
     dark: '#0c236b',
-    btnLight: '#F6F5F2',
-    btnDark: 'black',
-    btnRight: '#7743DB',
-    btnEqual: 'orange',
-    black: '#000000',
+    btnLight: '#2C2C2C',
+    btnDark: '#1C1C1C',
+    btnRight: '#1C1C1C',
+    btnEqual: '#FF9800',
+    black: '#FFFFFF',
     white: '#fefeff',
-    gray: '#f2f2f4'
+    gray: 'black'
 }

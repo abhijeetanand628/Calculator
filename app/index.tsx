@@ -5,7 +5,7 @@ import Calculator from "@/Components/Calculator";
 export default function Index() {
   return (
     <>
-    <Stack.Screen options={{title: 'Calculator'}} />
+    <Stack.Screen options={{headerShown: false}} />
     <Calculator />
     </>
   );

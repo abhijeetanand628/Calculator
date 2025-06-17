@@ -24,7 +24,7 @@
             borderRadius: 50,
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: Colors.btnDark,
-            marginBottom: 20
+            backgroundColor: 'Colors.btnDark',
+            marginBottom: 25
         }
     });
